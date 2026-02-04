@@ -1,7 +1,4 @@
-
-https://github.com/user-attachments/assets/6fc2ff6c-5517-43b5-bdf2-2067a06871b2
 # Firebot X: Fully Autonomous Firefighting Robot 🚒🤖
-
 
 ## 📖 Project Overview
 **Firebot X** is a **fully autonomous** mobile robot designed to detect, track, and extinguish fires in a simulated environment.
@@ -19,8 +16,6 @@ https://github.com/user-attachments/assets/92fcacc0-5399-477c-8ba0-baa22fe18960
 ## 🎨 CAD Renders
 <img width="1280" height="720" alt="iso front" src="https://github.com/user-attachments/assets/6b68932d-253a-4155-963e-a58a9fac5052" />
 <img width="1280" height="720" alt="topoff" src="https://github.com/user-attachments/assets/117b5b7e-ea44-415e-aafe-43610468fd0f" />
-![Back](https://github.com/user-attachments/assets/4dca5c72-1b4b-40b7-86a5-fe9df05ccee8)
-![Side](https://github.com/user-attachments/assets/3c1f5489-85d6-44ad-929f-3c0035c6f408)
 
 
 ## ✨ Key Features
@@ -40,7 +35,6 @@ The system is divided into three main nodes connected via **rosserial**:
 3.  **Actuation Node (ESP32 B):** Controls the DC motors (with encoders) and the water pump relay.
 
 ### Data Flow
-
 
 [Image of System Block Diagram]
 
