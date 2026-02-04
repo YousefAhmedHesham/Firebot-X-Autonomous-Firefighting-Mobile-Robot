@@ -1,0 +1,18 @@
+<launch>
+    <!-- First rosserial node (e.g., Arduino) -->
+    <node pkg="rosserial_python" type="serial_node.py" name="serial_node0" output="screen">
+        <param name="port" value="/dev/ttyUSB0"/>
+        <param name="baud" value="57600"/>
+    </node>
+
+    <!-- Second rosserial node (optional) -->
+    <node pkg="rosserial_python" type="serial_node.py" name="serial_node1" output="screen">
+        <param name="port" value="/dev/ttyUSB1"/>
+        <param name="baud" value="57600"/>
+    </node>
+
+    <!-- Fire detection node -->
+    <node pkg="dual_rosserial" type="fire_publisher.py" name="fire_publisher" output="screen"/>
+    <node pkg="dual_rosserial" type="reciever_esp1.py" name="reciever_esp1" output="screen"/>
+    <!-- <node pkg="dual_rosserial" type="reciever_esp1.py" name="camera_output_rtab" output="screen"/>-->
+</launch>

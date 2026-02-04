@@ -1,0 +1,1 @@
+bg_img = Image.open("D:/University/Spring 2025 Senior 1/Design of Mechatronic Systems (2)/GUI/fire_background.png")
